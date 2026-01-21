@@ -1,0 +1,27 @@
+{
+  "name": "employee-leave-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot for managing employee leave requests and inquiries.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "chatbot",
+    "employee",
+    "leave",
+    "management"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
